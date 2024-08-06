@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="POCProMxContact" constructor="ContactControl" version="5.0.7" display-name-key="ContactControl" description-key="ContactControl description" control-type="standard" >
+    <!--external-service-usage node declares whether this 3rd party PCF control is using external service or not, if yes, this control will be considered as premium and please also add the external domain it is using.
+    If it is not using any external service, please set the enabled="false" and DO NOT add any domain below. The "enabled" will be false by default.
+    Example1:
+      <external-service-usage enabled="true">
+        <domain>www.Microsoft.com</domain>
+      </external-service-usage>
+    Example2:
+      <external-service-usage enabled="false">
+      </external-service-usage>
+    -->
+    <external-service-usage enabled="false">
+      <!--UNCOMMENT TO ADD EXTERNAL DOMAINS
+      <domain></domain>
+      <domain></domain>
+      -->
+    </external-service-usage>
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <!-- <property name="firstName" display-name-key="First Name" of-type="SingleLine.Text" usage="bound"/>
+    <property name="lastName" display-name-key="Last NAme" of-type="SingleLine.Text" usage="bound"/>
+    <property name="dateOfBirth" display-name-key="Date Of birth" of-type="DateTime.DateOnly" usage="bound"/>
+    <property name="gender" display-name-key="Gender" of-type="Enum" usage="bound" /> -->
+    <property name="boundAccountId" display-name-key="BoundAccountId" of-type="SingleLine.Text" required="true" usage="bound" />
+
+    <!--
+      Property node's of-type attribute can be of-type-group attribute.
+      Example:
+      <type-group name="numbers">
+        <type>Whole.None</type>
+        <type>Currency</type>
+        <type>FP</type>
+        <type>Decimal</type>
+      </type-group>
+      <property name="sampleProperty" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type-group="numbers" usage="bound" required="true" />
+      <code path="index.ts" order="1"/>
+    -->
+    <resources>
+    <code path="index.ts" order="1" />
+    <!-- <string key="FirstName_DisplayKey" value="First Name" />
+    <string key="LastName_DisplayKey" value="Last Name" />
+    <string key="DateOfBirth_DisplayKey" value="Date Of Birth" />
+    <string key="Gender_DisplayKey" value="Gender" /> -->
+    <!-- Uncomment and add more resources if needed -->
+    <!--
+    <css path="css/ContactControl.css" order="1" />
+    <resx path="strings/ContactControl.1033.resx" version="1.0.0" />
+    -->
+</resources>
+ <feature-usage>
+<uses-feature name="WebAPI" required="true" />
+ </feature-usage>
+    <!-- UNCOMMENT TO ENABLE THE SPECIFIED API
+    <feature-usage>
+      <uses-feature name="Device.captureAudio" required="true" />
+      <uses-feature name="Device.captureImage" required="true" />
+      <uses-feature name="Device.captureVideo" required="true" />
+      <uses-feature name="Device.getBarcodeValue" required="true" />
+      <uses-feature name="Device.getCurrentPosition" required="true" />
+      <uses-feature name="Device.pickFile" required="true" />
+      <uses-feature name="Utility" required="true" />
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+    -->
+  </control>
+</manifest>
