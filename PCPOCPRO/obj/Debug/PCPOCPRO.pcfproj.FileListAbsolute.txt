@@ -1,0 +1,2 @@
+C:\Users\6143115\source\repos\PCPOCPRO\obj\Debug\PCPOCPRO.pcfproj.AssemblyReference.cache
+C:\Users\6143115\source\repos\PCPOCPRO\obj\Debug\PCPOCPRO.pcfproj.CoreCompileInputs.cache

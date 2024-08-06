@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\6143115\\source\\repos\\PCPOCPRO\\Solutions\\Solutions.cdsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\6143115\\source\\repos\\PCPOCPRO\\PCPOCPRO.pcfproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\6143115\\source\\repos\\PCPOCPRO\\PCPOCPRO.pcfproj",
+        "projectName": "PCPOCPRO",
+        "projectPath": "C:\\Users\\6143115\\source\\repos\\PCPOCPRO\\PCPOCPRO.pcfproj",
+        "packagesPath": "C:\\Users\\6143115\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\6143115\\source\\repos\\PCPOCPRO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\6143115\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net462"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net462": {
+            "targetAlias": "net462",
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net462": {
+          "targetAlias": "net462",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.PowerApps.MSBuild.Pcf": {
+              "target": "Package",
+              "version": "[1.*, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\Users\\6143115\\source\\repos\\PCPOCPRO\\Solutions\\Solutions.cdsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\6143115\\source\\repos\\PCPOCPRO\\Solutions\\Solutions.cdsproj",
+        "projectName": "Solutions",
+        "projectPath": "C:\\Users\\6143115\\source\\repos\\PCPOCPRO\\Solutions\\Solutions.cdsproj",
+        "packagesPath": "C:\\Users\\6143115\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\6143115\\source\\repos\\PCPOCPRO\\Solutions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\6143115\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net462"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net462": {
+            "targetAlias": "net462",
+            "projectReferences": {
+              "C:\\Users\\6143115\\source\\repos\\PCPOCPRO\\PCPOCPRO.pcfproj": {
+                "projectPath": "C:\\Users\\6143115\\source\\repos\\PCPOCPRO\\PCPOCPRO.pcfproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net462": {
+          "targetAlias": "net462",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.PowerApps.MSBuild.Solution": {
+              "target": "Package",
+              "version": "[1.*, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

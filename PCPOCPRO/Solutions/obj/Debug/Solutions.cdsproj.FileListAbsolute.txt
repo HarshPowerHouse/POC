@@ -1,0 +1,2 @@
+C:\Users\6143115\source\repos\PCPOCPRO\Solutions\obj\Debug\Solutions.cdsproj.AssemblyReference.cache
+C:\Users\6143115\source\repos\PCPOCPRO\Solutions\obj\Debug\Solutions.cdsproj.CoreCompileInputs.cache
